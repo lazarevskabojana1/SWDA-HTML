@@ -1,0 +1,25 @@
+body {
+    background-color: darkgray;
+}
+
+.weather {
+    width: 368px;
+    height: 534px;
+    border-radius: 10px;
+    background-color: black; 
+}
+    .background {
+        width: 368px;
+        height: 319px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-image: url("./images/backgroundweather.png");
+      
+}
+.stepeni {
+    font-size: 111px;
+    font-weight:bold;
+    color: white;
+    text-align: center;
+    padding: 10px 0 0 0;
+}    
