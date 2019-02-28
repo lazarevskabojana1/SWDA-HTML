@@ -43,10 +43,10 @@
                    <div class="code"> 
                         <h1> Social Networks</h1> 
                         <ul>
-                            <li> <img src="img/new_Facebook_194929 (3).png"> Facebook</li>
-                            <li> <img src="img/new_Intsagram_194923 (2).png"> Instagram</li>
-                            <li> <img src="img/new_LinkedIn_194920 (2).png">LinkedIn</li>
-                            <li> <img src="img/new_Mail_194919 (2).png">Gmail</li>
+                            <li> <img src="img/new_Facebook_194929 (3).png" class="nav-img"> Facebook</li>
+                            <li> <img src="img/new_Intsagram_194923 (2).png" class="nav-img"> Instagram</li>
+                            <li> <img src="img/new_LinkedIn_194920 (2).png" class="nav-img">LinkedIn</li>
+                            <li> <img src="img/new_Mail_194919 (2).png" class="nav-img">Gmail</li>
                         </ul>
                     </div>
                     <div class="social">
@@ -73,21 +73,21 @@
             <div class="background">
             <h1>Contact</h1>
             <div class="container">
-                <form>
-                  <label>Name:</label>
-                  <input type="text" name="name"><br/>
-                  <label>Email:</label>
-                  <input type="text" name="email"><br/>
-                </form>
-              </div>
+                <form action="form.php" method="POST">
+                    <label>Name:</label>
+                    <input type="text" name="name" placeholder="Enter your name"><br/>
+                    <label>Email:</label>
+                    <input type="text" name="email" placeholder="Enter your email adress"><br/>
+                    <label>How can I help you?</label>
                     <select name="name">
-                        <option value="Janko">Janko</option>
-                        <option value="Stanko">Stanko</option>
-                        <option value="Petko">Petko</option>
+                        <option value="Janko">HTML5 / CSS3</option>
+                        <option value="Stanko">UI / UX design</option>
+                        <option value="Petko">Web app design</option>
+                        <option value="Mitko">Web site redesign</option>
                     </select>
-                </li>
-            </ul>
-            <button type="submit"><a href="">Submit</a></button>
+                    <button type="submit" class="forma-kopce"><a href="">Submit</a></button>
+                </form>
+              </div>                 
         </div>
         </div>
         <div class="footer">
